@@ -446,4 +446,55 @@ body {
   -webkit-transform: scale(1);
           transform: scale(1);
 }
+.now {
+  background-color: #010f03;
+  background-image: url("https://images.pexels.com/photos/932262/pexels-photo-932262.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  padding-top: 4%;
+  padding-bottom: 4%;
+  font-weight: bold;
+  font-size: 25px;
+}
 
+#btn2 {
+  padding: 20px 18px;
+  margin-left: 4%;
+  font-size: 20px;
+  font-family: 'Merriweather', serif;
+  font-family: 'Lakki Reddy', cursive;
+  border-radius: 12%;
+}
+
+#placeOrder {
+  display: flex;
+  padding-top: 1%;
+  padding-left: 15px;
+  padding-right: 15px;
+  justify-content: center;
+  padding-bottom: 15%;
+}
+
+#submit2 {
+  padding: 40px;
+  border-radius: 10px;
+  margin-bottom: 7%;
+}
+
+#order card-body {
+  color: #05010ac4;
+  width: 600px;
+  font-size: 30px;
+}
+
+#order h1 {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 900;
+}
+#order {
+  text-align: center;
+}

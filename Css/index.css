@@ -1,75 +1,3 @@
-/* *{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: 'Roboto', sans-serif;
-}
-body{
-  width: 100%;
-  height: 100vh;
-  background: #e9d6cd;
-  overflow: hidden;
-  cursor: url(cursor.png), auto;
-}
-img{
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  width: 56%;
-  animation: 1s animate ease-in-out;
-}
-@keyframes animate{
-  0%{
-      opacity: 0;
-      transform: scale(.5);
-  }
-  100%{
-      opacity: 1;
-      transform: scale(1);
-  }
-}
-nav{
-  display: flex;
-  justify-content: center;
-}
-ul{
-  list-style: none;
-  display: inline;
-}
-ul li{
-  display: inline-block;
-  padding: 30px;
-  font-size: 20px;
-  cursor: pointer;
-}
-.content{
-  position: absolute;
-  top: 27vh;
-  left: 10%;
-  width: 33%;
-}
-.content h1{
-  font-size: 60px;
-}
-hr{
-  margin-top: 30px;
-  width: 20%;
-  height: 6px;
-  background: #000;
-}
-.content p{
-  margin-top: 30px;
-  font-size: 16px;
-}
-button{
-  margin-top: 20px;
-  background: #dfa167;
-  border: none;
-  outline: none;
-  letter-spacing: .04em;
-  font-size: 20px;
-  padding: 15px 20px;
-} */
 * {
   margin: 0;
   padding: 0;
@@ -169,6 +97,7 @@ body {
   font-weight: bolder;
   text-shadow: .1rem .1rem .3rem #333;
   color: #FFF200;
+  text-align: center;
 }
 
 #home .content h2 {
@@ -178,11 +107,13 @@ body {
   text-shadow: .1rem .1rem .3rem #333;
   color: #fff;
   margin: 1rem 0;
+  text-align: center;
 }
 
 #home .content p {
   font-size: 1.6rem;
   color: #ccc;
+  
 }
 
 #home .content button {
@@ -201,6 +132,7 @@ body {
   height: 4rem;
   width: 14rem;
   background: #fff;
+  text-align: center;
 }
 
 #home .content button::before {
@@ -214,32 +146,11 @@ body {
   -webkit-transition: .2s;
   transition: .2s;
   z-index: -1;
+  text-align: center;
 }
 
 #home .content button:hover::before {
   width: 100%;
-}
-
-#home .video-container {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100vh;
-  width: 100%;
-  z-index: -1;
-}
-
-#home .video-container .vid {
-  position: absolute;
-  height: 100vh;
-  width: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
-  display: none;
-}
-
-#home .video-container .vid1 {
-  display: block;
 }
 
 #home .controls {
@@ -268,7 +179,6 @@ body {
 #about .heading h1 span {
   color: #FFF200;
 }
-
 #about .content {
   margin: 5rem auto;
 }
@@ -488,12 +398,6 @@ body {
   color: #05010ac4;
   width: 600px;
   font-size: 30px;
-}
-
-#order h1 {
-  text-align: center;
-  font-size: 30px;
-  font-weight: 900;
 }
 #order {
   text-align: center;

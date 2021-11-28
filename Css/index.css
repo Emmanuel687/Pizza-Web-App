@@ -90,7 +90,8 @@ body {
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
   position: relative;
   background-image: url(https://image.shutterstock.com/image-photo/tasty-pepperoni-pizza-cooking-ingredients-260nw-1233657130.jpg);
-  
+  background-repeat: no-repeat;
+  background-size: 1400px 800px;
 }
 
 #home .content h1 {
@@ -176,9 +177,6 @@ body {
 
 #home .controls .dots:hover {
   background: #fff;
-}
-#about{
-  background-image: ;
 }
 #about .heading h1 span {
   color: #FFF200;

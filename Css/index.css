@@ -255,7 +255,9 @@ body {
   padding-top: 7rem;
   margin-bottom: 2rem;
 }
-
+#dish{
+  background:url(../images/background1.jpg) ;
+}
 #dish .heading h1 span {
   color: #fff200;
 }

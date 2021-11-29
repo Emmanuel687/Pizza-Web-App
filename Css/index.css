@@ -256,7 +256,9 @@ body {
   margin-bottom: 2rem;
 }
 #dish{
-  background:url(../images/background1.jpg) ;
+  background:url(../images/background3.jpg) ;
+  background-position: center;
+  background-size: cover;
 }
 #dish .heading h1 span {
   color: #fff200;

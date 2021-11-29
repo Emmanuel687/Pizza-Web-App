@@ -178,13 +178,18 @@ body {
 #home .controls .dots:hover {
   background: #fff;
 }
+
 #about .heading h1 span {
   color: #FFF200;
 }
 #about .content {
   margin: 5rem auto;
 }
-
+#about{
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+}
 #about .content p {
   font-size: 2rem;
 }

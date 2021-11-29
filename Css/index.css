@@ -419,3 +419,8 @@ body {
 #order {
   text-align: center;
 }
+#order{
+  background:url(../images/pizza6.jpg) ;
+  background-position: center;
+  background-size: cover;
+}
